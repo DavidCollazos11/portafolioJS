@@ -25,6 +25,17 @@ const Projects = () => {
               <img className="image" src="/IMG/Formulario1.PNG" alt="Formulario" />
             </div>
           </div>
+          <div className="container">
+            <div className="title">
+              <h1>TRABAJOS ANTERIORES</h1>
+            </div>
+            <div className="content">
+            <div className="content">
+            <a href="https://github.com/DavidCollazos11/Contador" className="subtitle">CONTADOR</a> <br></br>
+            <a href="https://github.com/DavidCollazos11/cartas" className="subtitle">CARTAS</a>
+          </div>
+            </div>
+          </div>
         </div>
       </main>
     );
