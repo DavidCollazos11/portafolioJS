@@ -32,7 +32,8 @@ const Projects = () => {
             <div className="content">
             <div className="content">
             <a href="https://github.com/DavidCollazos11/Contador" className="subtitle">CONTADOR</a> <br></br>
-            <a href="https://github.com/DavidCollazos11/cartas" className="subtitle">CARTAS</a>
+            <a href="https://github.com/DavidCollazos11/cartas" className="subtitle">CARTAS</a> <br></br>
+            <a href="https://github.com/DavidCollazos11/Tarea" className="subtitle">LA MEJOR WEB DE LA HISTORIA</a>   
           </div>
             </div>
           </div>
