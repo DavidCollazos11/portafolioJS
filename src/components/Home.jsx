@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
+
 const Home = () => {
   return (
     <main>
       <nav>
-        <a href="/git-ignore" aria-current="page">Inicio</a>
-        <a href="/projects">Proyectos</a>
-        <a href="/git-ignore">Git Ignore</a>
+        <Link to="/git-ignore" aria-current="page">Inicio</Link>
+        <Link to="/projects">Proyectos</Link>
+        <Link to="/git-ignore">Git Ignore</Link>
       </nav>
       <div className="container">
         <div className="title">
@@ -41,13 +43,13 @@ const Home = () => {
         </div>
       </div>
       <div className="container">
-          <div className="title">
-            <h1>REDES SOCIALES</h1>
-          </div>
-          <div className="content">
-            <a href="https://www.instagram.com/david_collazos_dou/" className="subtitle">Instagram</a>
-          </div>
+        <div className="title">
+          <h1>REDES SOCIALES</h1>
         </div>
+        <div className="content">
+          <a href="https://www.instagram.com/david_collazos_dou/" className="subtitle">Instagram</a>
+        </div>
+      </div>
     </main>
   );
 };

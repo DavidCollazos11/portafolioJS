@@ -1,20 +1,22 @@
+import { Link } from 'react-router-dom';
+
 const GitIgnore = () => {
-    return (
-      <main>
-        <nav>
-          <a href="/">Inicio</a>
-          <a href="/projects">Proyectos</a>
-          <a href="/git-ignore" aria-current="page">Git Ignore</a>
-        </nav>
-        <div className="container">
-          <div className="title">
-            <h1>GIT IGNORE TUTORIAL HD</h1>
-          </div>
-          <div className="content">
-            <p>
-              Un archivo .gitignore es esencial en cualquier proyecto de Git porque te permite especificar qué archivos o directorios deseas que Git ignore, es decir, que no rastree ni incluya en los commits. Aquí hay un tutorial muy básico para empezar:
-            </p>
-            <h3>Paso 1: Crear un archivo .gitignore</h3>
+  return (
+    <main>
+      <nav>
+        <Link to="/">Inicio</Link>
+        <Link to="/projects">Proyectos</Link>
+        <Link to="/git-ignore" aria-current="page">Git Ignore</Link>
+      </nav>
+      <div className="container">
+        <div className="title">
+          <h1>GIT IGNORE TUTORIAL HD</h1>
+        </div>
+        <div className="content">
+          <p>
+            Un archivo .gitignore es esencial en cualquier proyecto de Git porque te permite especificar qué archivos o directorios deseas que Git ignore, es decir, que no rastree ni incluya en los commits. Aquí hay un tutorial muy básico para empezar:
+          </p>
+          <h3>Paso 1: Crear un archivo .gitignore</h3>
           <p>1. Abre tu terminal (o línea de comandos).</p>
           <p>2. Navega al directorio de tu proyecto.</p>
           <p>3. Crea un archivo llamado .gitignore. Puedes hacerlo con el siguiente comando:</p>
@@ -64,11 +66,10 @@ const GitIgnore = () => {
           <p>
             Este archivo asegura que Git no rastree los archivos de registro, la carpeta de compilación, archivos de configuración del IDE y archivos generados por el sistema operativo. ¡Y eso es todo! Con estos pasos básicos, ya sabes cómo usar un archivo .gitignore para gestionar qué archivos y carpetas incluir en tu repositorio Git.
           </p>
-          </div>
         </div>
-      </main>
-    );
-  };
-  
-  export default GitIgnore;
-  
+      </div>
+    </main>
+  );
+};
+
+export default GitIgnore;
