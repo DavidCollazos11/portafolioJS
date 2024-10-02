@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <main>
       <nav>
-        <a href="/">Inicio</a>
+        <a href="/git-ignore" aria-current="page">Inicio</a>
         <a href="/projects">Proyectos</a>
         <a href="/git-ignore">Git Ignore</a>
       </nav>
@@ -19,10 +19,9 @@ const Home = () => {
         </div>
         <div className="container">
           <div className="title">
-            <h1>HABILIDADES</h1>
+            <h1>HABILIDADES DURAS</h1>
           </div>
           <div className="content">
-            <h3>Buen manejo del inglés</h3>
             <h3>Manejo de la suite de Adobe</h3>
             <h3>Creatividad en diseño</h3>
             <h3>Dibujo físico y digital</h3>
@@ -30,7 +29,25 @@ const Home = () => {
             <h3>Manejo de Blender</h3>
           </div>
         </div>
+        <div className="container">
+          <div className="title">
+            <h1>HABILIDADES BLANDAS</h1>
+          </div>
+          <div className="content">
+            <h3>Buen manejo del inglés</h3>
+            <h3>Diseño páginas web</h3>
+            <h3>Arquitecturas de hardware</h3>
+          </div>
+        </div>
       </div>
+      <div className="container">
+          <div className="title">
+            <h1>REDES SOCIALES</h1>
+          </div>
+          <div className="content">
+            <a href="https://www.instagram.com/david_collazos_dou/" className="subtitle">Instagram</a>
+          </div>
+        </div>
     </main>
   );
 };
