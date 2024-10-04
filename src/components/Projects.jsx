@@ -25,6 +25,7 @@ const Projects = () => {
             <img className="image" src="/IMG/Pezweb.PNG" alt="Pezweb" />
             <h3>Formulario de registro completo</h3>
             <img className="image" src="/IMG/Formulario1.PNG" alt="Formulario" />
+            <h4>(Perdi el proyecto, esta es la unica prueba de que alguna vez existio)</h4>
           </div>
         </div>
         <div className="container">
@@ -35,7 +36,8 @@ const Projects = () => {
             <div className="content">
               <a href="https://github.com/DavidCollazos11/Contador" className="subtitle">CONTADOR</a> <br />
               <a href="https://github.com/DavidCollazos11/cartas" className="subtitle">CARTAS</a> <br />
-              <a href="https://github.com/DavidCollazos11/Tarea" className="subtitle">LA MEJOR WEB DE LA HISTORIA</a>   
+              <a href="https://github.com/DavidCollazos11/PortafolioD" className="subtitle">PORTAFOLIO</a> <br />
+              <a href="https://github.com/DavidCollazos11/Tarea" className="subtitle">PAGINA RESPONSIVE</a>   
             </div>
           </div>
         </div>
